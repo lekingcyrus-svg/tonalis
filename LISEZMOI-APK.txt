@@ -1,0 +1,15 @@
+Obtenir l'application sans rien installer sur l'ordinateur
+===========================================================
+1. Creez un compte gratuit sur https://github.com
+2. Cliquez sur "+" (en haut a droite) > "New repository". Nom : tonalis. Cliquez "Create repository".
+3. Cliquez sur le lien "uploading an existing file".
+4. Ouvrez le dossier decompresse, selectionnez TOUT son contenu (pas le dossier lui-meme)
+   et glissez-le dans la page GitHub. Attendez la fin du televersement, puis "Commit changes".
+5. Si le dossier ".github" n'a pas ete envoye : "Add file" > "Create new file", tapez le nom
+   .github/workflows/build-apk.yml  puis collez le contenu de build-apk.yml.txt et validez.
+6. Onglet "Actions" : la construction demarre toute seule (sinon "Construire l'APK Android" > "Run workflow").
+7. Au bout de 5 a 10 minutes (pastille verte), cliquez sur l'execution, descendez a "Artifacts"
+   et telechargez "tonalis-apk". Decompressez : vous obtenez app-release.apk.
+8. Envoyez app-release.apk sur le telephone (cable USB, Google Drive, WhatsApp...), ouvrez-le
+   et autorisez l'installation depuis cette source.
+9. Installez la voix chinoise dans les reglages du telephone (synthese vocale).
